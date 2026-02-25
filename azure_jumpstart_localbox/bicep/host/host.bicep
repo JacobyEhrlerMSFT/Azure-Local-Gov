@@ -32,9 +32,9 @@ param location string = resourceGroup().location
   'southeastasia'
   'canadacentral'
   'japaneast'
-  'centralindia'
+  'usgovvirginia'
 ])
-param azureLocalInstanceLocation string = 'australiaeast'
+param azureLocalInstanceLocation string = 'usgovvirginia'
 
 @description('Resource Id of the subnet in the virtual network')
 param subnetId string
